@@ -43,5 +43,18 @@ sudo vim /etc/init.d/ssh_lifeline
 ```
 
 read the script and try to understand it best you can, I've had a few beers.
-once you think you've gotten it, 
-if you have questions feel free to post an issue.
+once you think you've gotten it, start dat new service:
+
+```sh
+sudo /sbin/service ssh_lifeline start
+```
+
+hopefully everything works out. if you have questions feel free to post an issue.
+supposing it did, lets add this into `chkconfig` for startup. cause I'm lazy.
+
+```sh
+sudo chkconfig ssh_lifeline on
+sudo chkconfig --list | grep ssh_lifeline
+```
+
+If you see a bunch of 'on', you're all set. cheers!
