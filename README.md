@@ -7,7 +7,7 @@ gotten around to upgrading my setups to containers.
 
 ## references
 
-* [markdown cheatseet]((https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [markdown cheatseet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [matiassingers curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
 * [ai/size-limit as an example of an awesome README](https://github.com/ai/size-limit/blob/master/README.md)
 * [stackexchange: "how can I make a script in /etc/init.d start at boot"](https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot)
