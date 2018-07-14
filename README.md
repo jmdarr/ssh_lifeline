@@ -5,6 +5,19 @@ because somtimes my reverse dns goes down and I want to phone home.
 built on centos 6 cause I'm too lazy to rebuild my server and haven't
 gotten around to upgrading my setups to containers.
 
+## references
+
+* markdown
+.* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+.* [https://github.com/ai/size-limit/blob/master/README.md](https://github.com/ai/size-limit/blob/master/README.md)
+* init.d
+.* [https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot](https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot)
+* autossh
+.* [https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/](https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/)
+* ssh tunnel
+.* [https://www.howtoforge.com/reverse-ssh-tunneling](https://www.howtoforge.com/reverse-ssh-tunneling)
+.* [https://unix.stackexchange.com/questions/162093/reverse-ssh-tunnel-in-config](https://unix.stackexchange.com/questions/162093/reverse-ssh-tunnel-in-config)
+
 ## usage
 
 `autossh` is found in the [epel](https://fedoraproject.org/wiki/EPEL) package repository:
@@ -33,4 +46,5 @@ sudo vim /etc/init.d/ssh_lifeline
 ```
 
 read the script and try to understand it best you can, I've had a few beers.
+once you think you've gotten it, 
 if you have questions feel free to post an issue.
