@@ -28,7 +28,6 @@ ssh_hostname="lifeline"
 options="-M 0 -f -T -N ${ssh_hostname}"
 pidfile=${PIDFILE:-/var/run/${prog}}
 lockfile=${LOCKFILE:-/var/run/${prog}}
-RETVAL=0
 
 # AUTOSSH_GATETIME
 # How long ssh must be up before we consider it a successful connection.
