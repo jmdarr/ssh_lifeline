@@ -29,7 +29,7 @@ sudo chmod 755 /etc/init.d/ssh_lifeline
 edit the sysvinit script with your ~~favorite editor~~vim:
 
 ```sh
-vim /etc/init.d/ssh_lifeline
+sudo vim /etc/init.d/ssh_lifeline
 ```
 
 read the script and try to understand it best you can, I've had a few beers.
