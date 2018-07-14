@@ -7,16 +7,13 @@ gotten around to upgrading my setups to containers.
 
 ## references
 
-* markdown
-.* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-.* [https://github.com/ai/size-limit/blob/master/README.md](https://github.com/ai/size-limit/blob/master/README.md)
-* init.d
-.* [https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot](https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot)
-* autossh
-.* [https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/](https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/)
-* ssh tunnel
-.* [https://www.howtoforge.com/reverse-ssh-tunneling](https://www.howtoforge.com/reverse-ssh-tunneling)
-.* [https://unix.stackexchange.com/questions/162093/reverse-ssh-tunnel-in-config](https://unix.stackexchange.com/questions/162093/reverse-ssh-tunnel-in-config)
+* [markdown cheatseet]((https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [matiassingers curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
+* [ai/size-limit as an example of an awesome README](https://github.com/ai/size-limit/blob/master/README.md)
+* [stackexchange: "how can I make a script in /etc/init.d start at boot"](https://unix.stackexchange.com/questions/20357/how-can-i-make-a-script-in-etc-init-d-start-at-boot)
+* [ssh tunneling for fun and profit](https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/)
+* [howtoforge: reverse ssh tunneling](https://www.howtoforge.com/reverse-ssh-tunneling)
+* [stackexchange: "reverse ssh tunnel in config"](https://unix.stackexchange.com/questions/162093/reverse-ssh-tunnel-in-config)
 
 ## usage
 
