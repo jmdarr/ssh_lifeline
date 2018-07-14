@@ -57,4 +57,10 @@ sudo chkconfig ssh_lifeline on
 sudo chkconfig --list | grep ssh_lifeline
 ```
 
-If you see a bunch of 'on', you're all set. cheers!
+If you see a bunch of 'on':
+
+```sh
+ssh_lifeline    0:off   1:off   2:on    3:on    4:on    5:on    6:off
+```
+
+then you're all set. cheers!
