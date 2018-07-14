@@ -63,6 +63,8 @@ If you see a bunch of 'on':
 ssh_lifeline    0:off   1:off   2:on    3:on    4:on    5:on    6:off
 ```
 
+then you're good to test. go you. gold star.
+
 ## testing
 
 To test, ssh to the remote location and attempt a ssh connection against
