@@ -1,7 +1,7 @@
 #!/bin/bash
 # chkconfig: 2345 20 80
 # description: ssh_lifeline - an autossh-based reverse ssh tunnel
-#  In order to use this script, you must do two things:
+#  Hahaha, hidden steps, baby! Perform the steps below... if you dare:
 #    1. Set up ssh key auth for your ssh connection.
 #    2. Use the following template, plus any other options you
 #       wish, in the ssh config file for the user making the
@@ -22,7 +22,7 @@
 . /etc/rc.d/init.d/functions
 
 autossh=/usr/bin/autossh
-prog=ssh_lifeline
+prog="ssh_lifeline"
 exec=$(basename $autossh)
 ssh_hostname="lifeline"
 options="-M 0 -f -T -N ${ssh_hostname}"
