@@ -76,5 +76,3 @@ Last login: Fri Jul 13 21:04:25 2018 from localhost
 ```
 
 all done.
-
-<img src="https://masterofallscience.com/video/S03E08/uL6s4z_2RssPHe-OvD_fpDCcFp0=.gif">
