@@ -21,13 +21,16 @@
 # Source function library.
 . /etc/rc.d/init.d/functions
 
-autossh=/usr/bin/autossh
+# You configure these:
+ssh_hostname="<ssh_hostname>"
+autossh="<path_to_autossh>"
+# I configure these:
 prog="ssh_lifeline"
 exec=$(basename $autossh)
-ssh_hostname="lifeline"
 options="-M 0 -f -T -N ${ssh_hostname}"
 pidfile=${PIDFILE:-/var/run/${prog}}
 lockfile=${LOCKFILE:-/var/run/${prog}}
+# TEAMWORK MAKES THE DREAM WORK!
 
 # AUTOSSH_GATETIME
 # How long ssh must be up before we consider it a successful connection.
