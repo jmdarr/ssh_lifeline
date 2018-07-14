@@ -63,4 +63,18 @@ If you see a bunch of 'on':
 ssh_lifeline    0:off   1:off   2:on    3:on    4:on    5:on    6:off
 ```
 
-then you're all set. cheers!
+## testing
+
+To test, ssh to the remote location and attempt a ssh connection against
+`localhost` and your port you configured:
+
+```sh
+[jdarr@remote_location ~]$ ssh -p 12345 jdarr@localhost
+jdarr@localhost's password:
+Last login: Fri Jul 13 21:04:25 2018 from localhost
+[jdarr@behind_nat ~]$ 
+```
+
+all done.
+
+<img src="https://masterofallscience.com/video/S03E08/uL6s4z_2RssPHe-OvD_fpDCcFp0=.gif">
